@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Arty Soule - джуниор веб-разработчик</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- General CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- CSS-Animation -->
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- Swiper Slider CSS -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic,cyrillic-ext"	rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__nav wow fadeInDown">
+				<img class="logo" src="img/logo.svg" alt="Arty Soule logo">
+
+				<ul class="social social__list">
+					<li>
+						<a class="social__link" href="https://github.com/artysoule" target="_blank">
+							<img class="social__image" src="img/social/github.svg" alt="github">
+						</a>
+					</li>
+
+					<li>
+						<a class="social__link" href="https://vk.com/artysoule" target="_blank">
+							<img class="social__image" src="img/social/vkontakte.svg" alt="vkontakte">
+						</a>
+					</li>
+
+					<li>
+						<a class="social__link" href="https://instagram.com/myartysoul" target="_blank">
+							<img class="social__image" src="img/social/instagram.svg" alt="instagram">
+						</a>
+					</li>
+
+					<li>
+						<a class="social__link" href="https://facebook.com/artysoule" target="_blank">
+							<img class="social__image" src="img/social/facebook.svg" alt="facebook">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- wow fadeInDown-->
+
+
+			<article class="header__about about">
+				<div class="about__info wow slideInLeft">
+					<span class="about__subtitle">Вэб-разработчик</span>
+					<h1 class="about__title">Arty Soule</h1>
+					<p class="about__description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и
+						верстку небольшого сайта или интернет-магазина</p>
+					<button class="about__button button">Бесплатная консультация</button>
+				</div>
+				<!-- wow slideInLeft-->
+
+				<div class="about__avatar wow fadeInRightBig" data-wow-delay="0s"> </div> 
+				<!-- wow fadeInRightBig-->
+			</article>
+		</div>
+	</header>
+
+	<main>
+		<section class="features section">
+			<div class="container">
+				<h2 class="section-title wow bounceInLeft">Со мной удобно работать</h2>
+				<!-- wow bounceInLeft-->
+				<ul class="features__list wow zoomIn">
+					<li class="features__item">
+						<img class="features__image" src="img/features/offer-img.svg" alt="По договору">
+						<h3 class="features__title">По договору</h3>
+						<p class="features__text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+					</li>
+					<li class="features__item">
+						<img class="features__image" src="img/features/deadline-img.svg" alt="Точно в срок">
+						<h3 class="features__title">Точно в срок</h3>
+						<p class="features__text">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
+					</li>
+					<li class="features__item">
+						<img class="features__image" src="img/features/agreement-img.svg" alt="Ценник под вас">
+						<h3 class="features__title">Ценник под вас</h3>
+						<p class="features__text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+					</li>
+					<li class="features__item">
+						<img class="features__image" src="img/features/steps-img.svg" alt="Промежуточные итоги">
+						<h3 class="features__title">Промежуточные итоги</h3>
+						<p class="features__text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+					</li>
+					<li class="features__item">
+						<img class="features__image" src="img/features/storage-img.svg" alt="Хостинг и домен">
+						<h3 class="features__title">Хостинг и домен</h3>
+						<p class="features__text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+					</li>
+					<li class="features__item">
+						<img class="features__image" src="img/features/conversation-img.svg" alt="Не брошу после сдачи">
+						<h3 class="features__title">Не брошу после сдачи</h3>
+						<p class="features__text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+					</li>
+				</ul>
+				<!-- wow zoomIn-->
+			</div>
+		</section>
+
+		<article class="projects section">
+			<div class="container">
+				<h2 class="section-title">Последние проекты</h2>
+
+				<div class="swiper-container">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper projects__slider">
+						<!-- Slides -->
+						<section class="projects__slide slide swiper-slide">
+							<img class="slide__image" src="img/projects/slide__img.png" width="338" height="" alt="Сайт строительной фирмы “Велстрой”">
+							<div class="slide__info">
+								<h3 class="slide__title">Сайт строительной фирмы “Велстрой”</h3>
+								<div class="slide__time">
+									<img class="slide__icon" src="img/projects/time-icon.svg" alt="Сроки">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Сроки</h4>
+										<p class="slide__text">4 рабочих дня</p>
+									</div>
+								</div>
+								<div class="slide__cost">
+									<img class="slide__icon" src="img/projects/cost-icon.svg" alt="Стоимость">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Стоимость</h4>
+										<p class="slide__text">14 000 рублей </p>
+									</div>
+								</div>
+								<div class="slide__review">
+									<img class="slide__icon" src="img/projects/review-icon.svg" alt="Отзыв клиента">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Отзыв клиента</h4>
+										<p class="slide__text">Мне понравилось работать с Артемом, потому что он все время был на
+											связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section class="projects__slide slide swiper-slide">
+							<img class="slide__image" src="img/projects/slide__img.png" width="338" height="" alt="Сайт строительной фирмы “Велстрой”">
+							<div class="slide__info">
+								<h3 class="slide__title">Сайт строительной фирмы “Велстрой”</h3>
+								<div class="slide__time">
+									<img class="slide__icon" src="img/projects/time-icon.svg" alt="Сроки">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Сроки</h4>
+										<p class="slide__text">4 рабочих дня</p>
+									</div>
+								</div>
+								<div class="slide__cost">
+									<img class="slide__icon" src="img/projects/cost-icon.svg" alt="Стоимость">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Стоимость</h4>
+										<p class="slide__text">14 000 рублей </p>
+									</div>
+								</div>
+								<div class="slide__review">
+									<img class="slide__icon" src="img/projects/review-icon.svg" alt="Отзыв клиента">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Отзыв клиента</h4>
+										<p class="slide__text">Мне понравилось работать с Артемом, потому что он все время был на
+											связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section class="projects__slide slide swiper-slide">
+							<img class="slide__image" src="img/projects/slide__img.png" width="338" height="" alt="Сайт строительной фирмы “Велстрой”">
+							<div class="slide__info">
+								<h3 class="slide__title">Сайт строительной фирмы “Велстрой”</h3>
+								<div class="slide__time">
+									<img class="slide__icon" src="img/projects/time-icon.svg" alt="Сроки">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Сроки</h4>
+										<p class="slide__text">4 рабочих дня</p>
+									</div>
+								</div>
+								<div class="slide__cost">
+									<img class="slide__icon" src="img/projects/cost-icon.svg" alt="Стоимость">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Стоимость</h4>
+										<p class="slide__text">14 000 рублей </p>
+									</div>
+								</div>
+								<div class="slide__review">
+									<img class="slide__icon" src="img/projects/review-icon.svg" alt="Отзыв клиента">
+									<div class="slide__description">
+										<h4 class="slide__subtitle">Отзыв клиента</h4>
+										<p class="slide__text">Мне понравилось работать с Артемом, потому что он все время был на
+											связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<!-- If we need pagination -->
+					<div class="projects__pagination"></div>
+
+				</div>
+			</div>
+		</article>
+	</main>
+
+
+	<footer class="footer section">
+		<div class="container">
+			<h2 class="section-title">Свяжитесь со мной</h2>
+
+			<div class="footer__info">
+				<form class="footer__form form" action="#">
+					<h3 class="form__title">Можете просто оставить заявку, я позвоню вам сегодня</h3>
+					<input class="form__input form__input--name" type="text" placeholder="Ваше имя">
+					<input class="form__input form__input--phone" type="text" placeholder="Ваш телефон">
+					<button class="form__button button">Бесплатная консультация</button>
+				</form>
+				
+				<div class="footer__contacts">
+					<div class="contacts">
+						<div class="contacts__phone">
+							<h3 class="contacts__title">Телефон</h3>
+							<a class="contacts__link" href="tel:+79103020069">+7 910 302-00-69</a>
+						</div>
+
+						<div class="contacts__mail">
+							<h3 class="contacts__title">Почта</h3>
+							<a class="contacts__link" href="mailto:artysoule@gmail.com">artysoule@gmail.com</a>
+						</div>
+
+						<div class="contacts__social">
+							<h3 class="contacts__title">Соц.сети</h3>
+							<a class="contacts__link" href="#">wa.me/artysoule</a>
+							<a class="contacts__link" href="#">vk.me/artysoule</a>
+							<a class="contacts__link" href="#">fb.me/artysoule</a>
+						</div>
+					</div>
+
+					<ul class="footer__social social social__list">
+						<li>
+							<a class="social__link" href="https://github.com/artysoule" target="_blank">
+								<img class="social__image" src="img/social/github.svg" alt="github">
+							</a>
+						</li>
+	
+						<li>
+							<a class="social__link" href="https://vk.com/artysoule" target="_blank">
+								<img class="social__image" src="img/social/vkontakte.svg" alt="vkontakte">
+							</a>
+						</li>
+	
+						<li>
+							<a class="social__link" href="https://instagram.com/myartysoul" target="_blank">
+								<img class="social__image" src="img/social/instagram.svg" alt="instagram">
+							</a>
+						</li>
+	
+						<li>
+							<a class="social__link" href="https://facebook.com/artysoule" target="_blank">
+								<img class="social__image" src="img/social/facebook.svg" alt="facebook">
+							</a>
+						</li>
+					</ul>
+					
+					<a class="footer__policy" href="#">Политика конфиденциальности</a>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/swiper.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

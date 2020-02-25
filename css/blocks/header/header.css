@@ -1,0 +1,24 @@
+.header {
+  padding-top: 50px;
+  padding-bottom: 150px;
+
+  background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 105px;
+}
+
+@media (max-width: 564px) {
+
+  .header {
+    padding-bottom: 100px;
+  }
+
+  .header__nav {
+    margin-bottom: 40px;
+  }
+}

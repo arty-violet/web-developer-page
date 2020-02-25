@@ -1,0 +1,38 @@
+
+@import url(blocks/button/button.css);
+@import url(blocks/container/container.css);
+@import url(blocks/logo/logo.css);
+@import url(blocks/social/social.css);
+@import url(blocks/header/header.css); /* media: 564px */
+@import url(blocks/about/about.css); /* media: 1100px, 836px, 564px */
+@import url(blocks/section/section.css); /* media: 564px */
+@import url(blocks/section-title/section-title.css); /* media: 564px */
+@import url(blocks/features/features.css); /* media: 836px, 564px */
+@import url(blocks/projects/projects.css); /* media: 836px, 564px */
+@import url(blocks/slide/slide.css); /* media: 836px, 564px */
+@import url(blocks/footer/footer.css); /* media: 836px, 564px */
+@import url(blocks/form/form.css); /* media: 564px */
+@import url(blocks/contacts/contacts.css); /* media: 564px */
+
+
+* {
+  box-sizing: border-box;
+  /* outline: 1px dashed; */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+
+  background-color: #20202D;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}

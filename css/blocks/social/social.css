@@ -1,0 +1,14 @@
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+
+.social__link {
+  display: block;
+}
+
+.social__image {
+  display: block;
+}
